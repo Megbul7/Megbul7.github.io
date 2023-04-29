@@ -1,0 +1,48 @@
+body {
+  background-color: #222;
+  color: white;
+
+  font-family: "Press Start 2P";
+}
+
+/* .lokiNumber {
+  display: inline;
+  border: solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+.numberBox {
+  color: #222;
+}
+
+#player {
+  margin-top: 40px;
+}
+
+.lokisNumber {
+  display: inline-block;
+  border: solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tryfield {
+  display: flex;
+}
+
+#reset {
+  color: white;
+  background-color: #222;
+  font-family: "Press Start 2P";
+}
+
+#check {
+  color: white;
+  background-color: #222;
+  font-family: "Press Start 2P";
+}

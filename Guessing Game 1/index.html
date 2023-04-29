@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to Loki's Guessing Game</h1>
+    <p>Pick a number from 1 - 20</p>
+    <br />
+    <div>
+      <h2 class="loki">Loki's Number</h2>
+    </div>
+    <h2 class="lokisNumber">?</h2>
+
+    <br />
+    <div id="player">
+      <fieldset>
+        <h2 class="message">Start Guessing...</h2>
+        <div class="tryfield">
+          <h4>Tries:</h4>
+          <h4 class="tries">10</h4>
+        </div>
+        <h3 class="yourNumber"></h3>
+        <br />
+        <div>
+          <input type="number" id="numberBox" min="0" max="20" required />
+          <input type="button" value="Check" id="check" />
+
+          <input type="button" id="reset" value="Reset" />
+        </div>
+      </fieldset>
+    </div>
+    <h1 class="endGame"></h1>
+
+    <script src="Js/script.js"></script>
+  </body>
+</html>
